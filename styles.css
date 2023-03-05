@@ -9,3 +9,120 @@ h1 {
    }
    
    /* START BELOW THIS LINE */
+
+/* @function set-text-color($color) {
+    @if (lightness($color) > 50) {
+    @return #000000;
+} @else {
+    @return #ffffff;
+}
+} */
+
+
+
+
+    /* QUESTION 1 */
+@media (width < 800px) {
+body {
+    background-color: navy;
+}
+    /* END QUESTION 1 */
+    /* BONUS 2a */
+    #two {
+        color: navy;
+    }
+    /* END BONUS 2a */    
+}
+
+
+
+
+    /* QUESTION 2 */
+@media (width < 600px) {
+    body {
+        background-color: orange;
+    }
+    /* END QUESTION 2 */
+    /* BONUS 2b */
+    #two {
+        color: orange;
+    }
+    /* END BONUS 2b */    
+}
+
+
+
+
+    /* QUESTION 3 */
+@media (width > 600px) and (height < 400px) {
+    #one {
+        border: 10px dashed gray;
+    }
+    #three {
+        border: 10px dotted gray;
+    }
+    /* END QUESTION 3 */
+}
+
+
+
+
+    /* QUESTION 4 */
+@media (width > 900px) or (height > 500px) {
+    #two {
+        border-top: 10px solid gray;
+    }
+    /* END QUESTION 4 */
+}
+
+
+
+
+    /* QUESTION 5 */
+@media (orientation:landscape) {
+    body {
+        display: flex;
+    }
+}
+    /* END QUESTION 5 */
+
+
+
+    /* QUESTION 6 */
+@media (orientation:portrait) {
+    body {
+        display: grid;
+        align-content:space-evenly;
+    }
+    h1 {
+        justify-self: center;
+    }
+}
+    /* END QUESTION 6 */
+
+
+/* BONUS 1 */
+@media print {
+    body {
+        text-transform: uppercase;
+    }
+    h1 {
+        color: green;
+    }
+}
+/* END BONUS 1 */
+
+@media ((width > 750px) and (width < 775px)) and ((height > 550px) and (height < 575px)) {
+    h1 {
+        font-style: italic;
+    }
+}
+
+
+
+
+
+
+
+
+
