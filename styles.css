@@ -10,28 +10,19 @@ h1 {
    
    /* START BELOW THIS LINE */
 
-/* @function set-text-color($color) {
-    @if (lightness($color) > 50) {
-    @return #000000;
-} @else {
-    @return #ffffff;
-}
-} */
-
-
-
-
     /* QUESTION 1 */
 @media (width < 800px) {
 body {
     background-color: navy;
 }
     /* END QUESTION 1 */
+
     /* BONUS 2a */
     #two {
         color: navy;
     }
     /* END BONUS 2a */    
+
 }
 
 
@@ -43,11 +34,13 @@ body {
         background-color: orange;
     }
     /* END QUESTION 2 */
+    
     /* BONUS 2b */
     #two {
         color: orange;
     }
     /* END BONUS 2b */    
+
 }
 
 
@@ -61,8 +54,8 @@ body {
     #three {
         border: 10px dotted gray;
     }
-    /* END QUESTION 3 */
 }
+    /* END QUESTION 3 */
 
 
 
@@ -72,8 +65,8 @@ body {
     #two {
         border-top: 10px solid gray;
     }
-    /* END QUESTION 4 */
 }
+    /* END QUESTION 4 */
 
 
 
@@ -101,7 +94,9 @@ body {
     /* END QUESTION 6 */
 
 
-/* BONUS 1 */
+
+
+    /* BONUS 1 */
 @media print {
     body {
         text-transform: uppercase;
@@ -110,19 +105,15 @@ body {
         color: green;
     }
 }
-/* END BONUS 1 */
+    /* END BONUS 1 */
 
+
+
+
+    /* Bonus 3 */
 @media ((width > 750px) and (width < 775px)) and ((height > 550px) and (height < 575px)) {
     h1 {
         font-style: italic;
     }
 }
-
-
-
-
-
-
-
-
-
+    /* END BONUS 3 */
